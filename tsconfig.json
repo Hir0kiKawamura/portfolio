@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+        "jsx": "react",
+		"allowSyntheticDefaultImports": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitReturns": true,
+		"esModuleInterop": true,
+		"target": "esnext",
+		"module": "esnext",
+		"strict": true,
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"allowJs": true,
+		"outDir": "dist",
+		"incremental": true,
+		"baseUrl": "./",
+		"paths": {},
+		"strictNullChecks": true
+	},
+	"include": [
+		"src"
+	],
+	"exclude": [
+	  "dist",
+	  "src/00_lib",
+	  "src/01_common"
+	],
+	"files": [
+		"./node_modules/@kintone/dts-gen/kintone.d.ts"
+	]
+}
